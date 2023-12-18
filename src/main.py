@@ -30,6 +30,9 @@ def combine(nqs, title, path):
     manifest["label"] = title
     count = 0
     for canvas in manifest["sequences"][0]["canvases"]:
+        if "X.020v" in canvas["thumbnail"]["@id"]:
+            continue
+
         canvas["label"] = canvas["images"][0]["resource"]["@id"].split('/')[-5]  # .split('_')[0]
         choice = {
             "@type": "oa:Choice",
