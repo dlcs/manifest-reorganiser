@@ -1201,12 +1201,12 @@
                             "resource": {
                                 "@type": "oa:Choice",
                                 "default": {
-                                    "@id": "https://dlc.services/iiif-img/22/2/X.030_VIS/full/!2000,2000/0/default.jpg",
+                                    "@id": "https://dlc.services/iiif-img/22/2/X.030v_VIS/full/!2000,2000/0/default.jpg",
                                     "@type": "dctypes:Image",
                                     "height": 8446,
                                     "width": 9588,
                                     "service": {
-                                        "@id": "https://dlc.services/iiif-img/22/2/X.030_VIS",
+                                        "@id": "https://dlc.services/iiif-img/22/2/X.030v_VIS",
                                         "protocol": "http://iiif.io/api/image",
                                         "height": 8446,
                                         "width": 9588,
